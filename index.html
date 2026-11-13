@@ -1,37 +1,163 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!doctype html>
+<html lang="pt-BR">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Gold Play</title>
+
+    <link rel="stylesheet" href="./src/styles/styles.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet"
+    />
 </head>
+
 <body>
+
+    <!-- HEADER -->
     <header>
-        <div>
-            <img src="./src/assets/images/logo.svg" alt="">
+
+        <div class="header-navegation">
+
+            <img src="./src/assets/images/logo.svg" alt="Gold Play" />
+
             <nav>
-                <ul>
+                <ul class="itens-navegation">
                     <li><a href="">Início</a></li>
-                    <li><a href="">Gênero</a></li>
-                    <li><a href="">Catálogos</a></li>
+                    <li><a href="">Gêneros</a></li>
+                    <li><a href="">Catálogo</a></li>
                     <li><a href="">Planos</a></li>
                 </ul>
             </nav>
+
         </div>
-        <div>
+
+        <div class="container-search">
+
             <form>
-                <input type="text">
-                <button>
-                    <img src="./src/assets/images/lupa.svg" alt="">
+                <input type="text" />
+
+                <button type="button">
+                    <img src="./src/assets/images/lupa.svg" alt="Pesquisar" />
                 </button>
             </form>
+
             <nav>
-                <a href="">Entrar</a>
+                <a href="" class="btnHeader">Entrar</a>
             </nav>
+
         </div>
+
     </header>
+
+    <!-- BANNER PRINCIPAL -->
+    <main>
+
+        <h1>
+            TODO ENTRETENIMENTO
+            <br>
+            EM UM <span>ÚNICO LUGAR</span>
+        </h1>
+
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit,
+            sed do eiusmod tempor incididunt ut labore et dolore magna
+            aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+            ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+
+        <nav>
+            <a href="" class="btnPrimary">Começar agora</a>
+            <a href="" class="btnOutline">Conheça a plataforma</a>
+        </nav>
+
+    </main>
+
+    <!-- SEÇÃO DE GÊNEROS -->
+    <section class="section-genre">
+
+        <div>
+
+            <h2>NOSSOS <span>GÊNEROS</span></h2>
+
+            <div class="container-genre">
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Terror" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>TERROR</h3>
+                        <p>Magia e fantasia animada</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Ficção científica" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>FICÇÃO CIENTÍFICA</h3>
+                        <p>Futuro e espaço.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Aventura" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>AVENTURA</h3>
+                        <p>Exploração e complicações.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Ação" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>AÇÃO</h3>
+                        <p>Histórias de ação.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Animação" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>ANIMAÇÃO</h3>
+                        <p>Magia e fantasia animada.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Anime" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>ANIME</h3>
+                        <p>Desenhos orientais.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Romance" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>ROMANCE</h3>
+                        <p>Histórias de amor e paixão.</p>
+                    </div>
+                </div>
+
+                <div class="card-genre">
+                    <img src="./src/assets/images/Terror.svg" alt="Documentário" loading="lazy" />
+                    <div class="details-genre">
+                        <h3>DOCUMENTÁRIO</h3>
+                        <p>Casos reais e biografias.</p>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
 </body>
 </html>
